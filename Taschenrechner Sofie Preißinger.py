@@ -8,8 +8,7 @@ def berechnen():
     calc = input('''
 Bitte geben Sie die mathemathische Operation ein, die Sie ausführen möchten
 ''')
-    if calc == ','
-        print("','")
+    
     print("Ergebnis: " + str(eval(calc)))
     nochmal()
 
