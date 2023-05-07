@@ -1,41 +1,23 @@
 
-def Wilkommen():
+def Willkommen():
     print('''
-Wilkommen! Viel spaß beim rechnen.
+Willkommen! Viel Spaß beim rechnen.
 -Sofie Preißinger
 ''')
 def berechnen():
-    operator = input('''
-Bitte geben Sie die mathemathische Operation ein, die Sie ausführen möchten)
-+ für addieren
-- für subtrahieren 
-* für multiplizieren 
-/ für dividieren 
+    calc = input('''
+Bitte geben Sie die mathemathische Operation ein, die Sie ausführen möchten
 ''')
-
-    num1 = float(input("Geben Sie die erste Nummer ein:"))
-    num2 = float(input("Geben Sie die zweite Nummer ein:"))
-
-    if operator == "+":
-        result = num1 + num2
-        print(round(result, 3))
-    elif operator == "-":
-        result = num1 - num2
-        print(round(result, 3))
-    elif operator == "*":
-        result = num1 * num2
-        print(round(result, 3))
-    elif operator == "/":
-        result = num1 / num2
-        print(round(result, 3))
-    else:
-        print(f"{operator} ist keine gültige Eingabe, bitte versuchen Sie es erneut")
+    if calc == ','
+        print("','")
+    print("Ergebnis: " + str(eval(calc)))
     nochmal()
+
 def nochmal():
 
     calc_again = input('''
 Wollen Sie nochmal etwas berechnen ?
-Bitte geben Sie Ja oder Nein ein.
+Bitte geben Sie bitte "Ja" oder "Nein" ein.
 ''')
 
     if calc_again == 'Ja':
@@ -46,6 +28,7 @@ Bitte geben Sie Ja oder Nein ein.
 
     else:
         nochmal()
-Wilkommen()
+
+Willkommen()
 berechnen()
 
