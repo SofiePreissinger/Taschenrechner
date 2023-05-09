@@ -16,7 +16,7 @@ def nochmal():
 
     calc_again = input('''
 Wollen Sie nochmal etwas berechnen ?
-Bitte geben Sie bitte "Ja" oder "Nein" ein.
+Bitte geben Sie "Ja" oder "Nein" ein.
 ''')
 
     if calc_again == 'Ja':
