@@ -6,7 +6,7 @@ Willkommen! Viel Spaß beim rechnen.
 ''')
 def berechnen():
     calc = input('''
-Bitte geben Sie die mathemathische Operation ein, die Sie ausführen möchten
+Bitte geben Sie die mathemathische Berechnung ein, die Sie ausführen möchten
 ''')
     
     print("Ergebnis: " + str(eval(calc)))
